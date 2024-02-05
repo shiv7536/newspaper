@@ -9,7 +9,10 @@ import 'package:newspaper/Screens/Dashboard/LoginOptions.dart';
 import 'package:newspaper/Screens/Dashboard/NewPassword.dart';
 import 'package:newspaper/Screens/Dashboard/OTP.dart';
 import 'package:newspaper/Screens/Dashboard/OTPScreen.dart';
+import 'package:newspaper/Screens/Dashboard/Profile.dart';
 import 'package:newspaper/Screens/Dashboard/dashboard.dart';
+import 'package:newspaper/Screens/Dashboard/Error.dart';
+import 'package:newspaper/Style/Common.dart';
 
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});
@@ -45,7 +48,7 @@ class _SplashscreenState extends State<Splashscreen> {
             children: [
               Text(
                 'News\n Paper',
-                style: GoogleFonts.poppins(),
+                style: Common().Textstyle1()
               ),
 
             ],

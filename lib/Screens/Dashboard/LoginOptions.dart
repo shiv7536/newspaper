@@ -27,6 +27,7 @@ class _LoginOptionsState extends State<LoginOptions> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image(image: AssetImage('assets/logo1.png')),
             Center(child: Text('News\nPaper',style: GoogleFonts.poppins(fontWeight: FontWeight.bold,fontSize: 20),)),
             const SizedBox(height: 100,),
             InkWell(
